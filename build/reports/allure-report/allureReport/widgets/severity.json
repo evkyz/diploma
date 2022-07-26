@@ -1,0 +1,221 @@
+[ {
+  "uid" : "9f730a53f74e3d5c",
+  "name" : "Владелец не заполнен",
+  "time" : {
+    "start" : 1658768006928,
+    "stop" : 1658768007919,
+    "duration" : 991
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "86056564e0584a3b",
+  "name" : "Карта просрочена на месяц",
+  "time" : {
+    "start" : 1658767974646,
+    "stop" : 1658767975694,
+    "duration" : 1048
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7969a8c55996a0c0",
+  "name" : "Владелец заполнен c использованием цифр",
+  "time" : {
+    "start" : 1658767932272,
+    "stop" : 1658767949070,
+    "duration" : 16798
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3e0a3c07aca70803",
+  "name" : "Год не заполнен",
+  "time" : {
+    "start" : 1658767971481,
+    "stop" : 1658767972526,
+    "duration" : 1045
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e902af7a7122f6f",
+  "name" : "Владелец заполнен c использованием спец.символов",
+  "time" : {
+    "start" : 1658767949102,
+    "stop" : 1658767965806,
+    "duration" : 16704
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a6c84cc36109e17",
+  "name" : "Несуществующий месяц",
+  "time" : {
+    "start" : 1658767997557,
+    "stop" : 1658767998647,
+    "duration" : 1090
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f5a170247e90b9e",
+  "name" : "Неверный формат месяца",
+  "time" : {
+    "start" : 1658767973588,
+    "stop" : 1658767974642,
+    "duration" : 1054
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "673e5187bb0cf000",
+  "name" : "Владелец заполнен кирилиицей",
+  "time" : {
+    "start" : 1658767979979,
+    "stop" : 1658767996449,
+    "duration" : 16470
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "54be041a4e07af64",
+  "name" : "Год заполнен буквами",
+  "time" : {
+    "start" : 1658767967074,
+    "stop" : 1658767968244,
+    "duration" : 1170
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1f95fdc5fd55faca",
+  "name" : "Номер карты с использованием букв",
+  "time" : {
+    "start" : 1658767968248,
+    "stop" : 1658767969327,
+    "duration" : 1079
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "32bd9bae7e1062da",
+  "name" : "Истёк срок действия карты",
+  "time" : {
+    "start" : 1658767978887,
+    "stop" : 1658767979965,
+    "duration" : 1078
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b3ff1cd85f24fcd1",
+  "name" : "Неверный срок действия карты",
+  "time" : {
+    "start" : 1658767972531,
+    "stop" : 1658767973583,
+    "duration" : 1052
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2ec602cf23baf51",
+  "name" : "Код не заполнен",
+  "time" : {
+    "start" : 1658767970411,
+    "stop" : 1658767971460,
+    "duration" : 1049
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9527991e5c286d4",
+  "name" : "Номер карты не заполнен",
+  "time" : {
+    "start" : 1658767996457,
+    "stop" : 1658767997553,
+    "duration" : 1096
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9067645a7f9a085c",
+  "name" : "Код заполнен буквами",
+  "time" : {
+    "start" : 1658767965818,
+    "stop" : 1658767967068,
+    "duration" : 1250
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "107a5ec103b2d580",
+  "name" : "Неверный формат кода",
+  "time" : {
+    "start" : 1658767975699,
+    "stop" : 1658767976765,
+    "duration" : 1066
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc5e54c823daf96",
+  "name" : "Месяц не заполнен",
+  "time" : {
+    "start" : 1658767920315,
+    "stop" : 1658767932095,
+    "duration" : 11780
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1db14ef1d4104e81",
+  "name" : "Месяц заполнен буквами",
+  "time" : {
+    "start" : 1658767969333,
+    "stop" : 1658767970407,
+    "duration" : 1074
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "840a619536bf1249",
+  "name" : "Неверный формат года",
+  "time" : {
+    "start" : 1658767976770,
+    "stop" : 1658767977831,
+    "duration" : 1061
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a8bb1ec97eb0f7b5",
+  "name" : "Неверный номер карты",
+  "time" : {
+    "start" : 1658767998651,
+    "stop" : 1658768006924,
+    "duration" : 8273
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "34607487d13dd857",
+  "name" : "Невернный формат номера карты",
+  "time" : {
+    "start" : 1658767977835,
+    "stop" : 1658767978883,
+    "duration" : 1048
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a9b9800288611efd",
+  "name" : "Владелец заполнен латиницей и кирилиицей",
+  "time" : {
+    "start" : 1658768007950,
+    "stop" : 1658768024254,
+    "duration" : 16304
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

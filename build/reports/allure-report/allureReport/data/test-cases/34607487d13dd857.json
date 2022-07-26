@@ -1,0 +1,285 @@
+{
+  "uid" : "34607487d13dd857",
+  "name" : "Невернный формат номера карты",
+  "fullName" : "ru.netology.test.TestJourneyDay.testIncorrectCardNumber",
+  "historyId" : "f63a418379d8eba285f08e500f67ba3f",
+  "time" : {
+    "start" : 1658767977835,
+    "stop" : 1658767978883,
+    "duration" : 1048
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "setUpAll",
+    "time" : {
+      "start" : 1658767920164,
+      "stop" : 1658767920186,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1658767977837,
+      "stop" : 1658767977885,
+      "duration" : 48
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"open\") http://localhost:8080/",
+      "time" : {
+        "start" : 1658767977837,
+        "stop" : 1658767977884,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "$(\"By.xpath: //h2\") should be(visible)",
+      "time" : {
+        "start" : 1658767977885,
+        "stop" : 1658767977908,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: //span[text()='Купить']\") click()",
+      "time" : {
+        "start" : 1658767977908,
+        "stop" : 1658767977977,
+        "duration" : 69
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: //h3[@class=\"heading heading_size_m heading_theme_alfa-on-white\"]\") should be(visible)",
+      "time" : {
+        "start" : 1658767977977,
+        "stop" : 1658767977998,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: //input[@placeholder=\"0000 0000 0000 0000\"]\") set value(4444 4444 4444 444)",
+      "time" : {
+        "start" : 1658767978011,
+        "stop" : 1658767978186,
+        "duration" : 175
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: //input[@placeholder=\"08\"]\") set value(07)",
+      "time" : {
+        "start" : 1658767978186,
+        "stop" : 1658767978312,
+        "duration" : 126
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: //input[@placeholder=\"22\"]\") set value(22)",
+      "time" : {
+        "start" : 1658767978312,
+        "stop" : 1658767978446,
+        "duration" : 134
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"fieldset > div:nth-child(3) > span > span:nth-child(1) > span > span > span.input__box > input\") set value(Dr. Stacy Jaskolski)",
+      "time" : {
+        "start" : 1658767978446,
+        "stop" : 1658767978622,
+        "duration" : 176
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: //input[@placeholder=\"999\"]\") set value(123)",
+      "time" : {
+        "start" : 1658767978622,
+        "stop" : 1658767978752,
+        "duration" : 130
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\".button.findBy(exact text \"Продолжить\")\") click()",
+      "time" : {
+        "start" : 1658767978752,
+        "stop" : 1658767978862,
+        "duration" : 110
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "$(\"By.xpath: //span[@class=\"input__sub\"]\") should be([visible, 15 s.])",
+      "time" : {
+        "start" : 1658767978862,
+        "stop" : 1658767978883,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "tearDownAll",
+    "time" : {
+      "start" : 1658768024300,
+      "stop" : 1658768024300,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:ru.netology.test.TestJourneyDay]/[method:testIncorrectCardNumber()]"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-96VAMIC"
+  }, {
+    "name" : "thread",
+    "value" : "12712@DESKTOP-96VAMIC.Test worker(14)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ru.netology.test.TestJourneyDay"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.netology.test.TestJourneyDay"
+  }, {
+    "name" : "testMethod",
+    "value" : "testIncorrectCardNumber"
+  }, {
+    "name" : "suite",
+    "value" : "ru.netology.test.TestJourneyDay"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "34607487d13dd857.json",
+  "parameterValues" : [ ]
+}

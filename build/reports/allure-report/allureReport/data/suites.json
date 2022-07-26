@@ -1,0 +1,383 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "ru.netology.test.TestJourneyDay",
+    "children" : [ {
+      "name" : "Месяц не заполнен",
+      "uid" : "dc5e54c823daf96",
+      "parentUid" : "308fb025eb7dde5a584abc4e5d7f4d46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658767920315,
+        "stop" : 1658767932095,
+        "duration" : 11780
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Владелец заполнен c использованием цифр",
+      "uid" : "7969a8c55996a0c0",
+      "parentUid" : "308fb025eb7dde5a584abc4e5d7f4d46",
+      "status" : "failed",
+      "time" : {
+        "start" : 1658767932272,
+        "stop" : 1658767949070,
+        "duration" : 16798
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Владелец заполнен c использованием спец.символов",
+      "uid" : "7e902af7a7122f6f",
+      "parentUid" : "308fb025eb7dde5a584abc4e5d7f4d46",
+      "status" : "failed",
+      "time" : {
+        "start" : 1658767949102,
+        "stop" : 1658767965806,
+        "duration" : 16704
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Код заполнен буквами",
+      "uid" : "9067645a7f9a085c",
+      "parentUid" : "308fb025eb7dde5a584abc4e5d7f4d46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658767965818,
+        "stop" : 1658767967068,
+        "duration" : 1250
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Год заполнен буквами",
+      "uid" : "54be041a4e07af64",
+      "parentUid" : "308fb025eb7dde5a584abc4e5d7f4d46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658767967074,
+        "stop" : 1658767968244,
+        "duration" : 1170
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Номер карты с использованием букв",
+      "uid" : "1f95fdc5fd55faca",
+      "parentUid" : "308fb025eb7dde5a584abc4e5d7f4d46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658767968248,
+        "stop" : 1658767969327,
+        "duration" : 1079
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Месяц заполнен буквами",
+      "uid" : "1db14ef1d4104e81",
+      "parentUid" : "308fb025eb7dde5a584abc4e5d7f4d46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658767969333,
+        "stop" : 1658767970407,
+        "duration" : 1074
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Код не заполнен",
+      "uid" : "b2ec602cf23baf51",
+      "parentUid" : "308fb025eb7dde5a584abc4e5d7f4d46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658767970411,
+        "stop" : 1658767971460,
+        "duration" : 1049
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Год не заполнен",
+      "uid" : "3e0a3c07aca70803",
+      "parentUid" : "308fb025eb7dde5a584abc4e5d7f4d46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658767971481,
+        "stop" : 1658767972526,
+        "duration" : 1045
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Неверный срок действия карты",
+      "uid" : "b3ff1cd85f24fcd1",
+      "parentUid" : "308fb025eb7dde5a584abc4e5d7f4d46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658767972531,
+        "stop" : 1658767973583,
+        "duration" : 1052
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Неверный формат месяца",
+      "uid" : "3f5a170247e90b9e",
+      "parentUid" : "308fb025eb7dde5a584abc4e5d7f4d46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658767973588,
+        "stop" : 1658767974642,
+        "duration" : 1054
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Карта просрочена на месяц",
+      "uid" : "86056564e0584a3b",
+      "parentUid" : "308fb025eb7dde5a584abc4e5d7f4d46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658767974646,
+        "stop" : 1658767975694,
+        "duration" : 1048
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Неверный формат кода",
+      "uid" : "107a5ec103b2d580",
+      "parentUid" : "308fb025eb7dde5a584abc4e5d7f4d46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658767975699,
+        "stop" : 1658767976765,
+        "duration" : 1066
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Неверный формат года",
+      "uid" : "840a619536bf1249",
+      "parentUid" : "308fb025eb7dde5a584abc4e5d7f4d46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658767976770,
+        "stop" : 1658767977831,
+        "duration" : 1061
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Невернный формат номера карты",
+      "uid" : "34607487d13dd857",
+      "parentUid" : "308fb025eb7dde5a584abc4e5d7f4d46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658767977835,
+        "stop" : 1658767978883,
+        "duration" : 1048
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Истёк срок действия карты",
+      "uid" : "32bd9bae7e1062da",
+      "parentUid" : "308fb025eb7dde5a584abc4e5d7f4d46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658767978887,
+        "stop" : 1658767979965,
+        "duration" : 1078
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Владелец заполнен кирилиицей",
+      "uid" : "673e5187bb0cf000",
+      "parentUid" : "308fb025eb7dde5a584abc4e5d7f4d46",
+      "status" : "failed",
+      "time" : {
+        "start" : 1658767979979,
+        "stop" : 1658767996449,
+        "duration" : 16470
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Номер карты не заполнен",
+      "uid" : "9527991e5c286d4",
+      "parentUid" : "308fb025eb7dde5a584abc4e5d7f4d46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658767996457,
+        "stop" : 1658767997553,
+        "duration" : 1096
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Несуществующий месяц",
+      "uid" : "2a6c84cc36109e17",
+      "parentUid" : "308fb025eb7dde5a584abc4e5d7f4d46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658767997557,
+        "stop" : 1658767998647,
+        "duration" : 1090
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Неверный номер карты",
+      "uid" : "a8bb1ec97eb0f7b5",
+      "parentUid" : "308fb025eb7dde5a584abc4e5d7f4d46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658767998651,
+        "stop" : 1658768006924,
+        "duration" : 8273
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Владелец не заполнен",
+      "uid" : "9f730a53f74e3d5c",
+      "parentUid" : "308fb025eb7dde5a584abc4e5d7f4d46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658768006928,
+        "stop" : 1658768007919,
+        "duration" : 991
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Владелец заполнен латиницей и кирилиицей",
+      "uid" : "a9b9800288611efd",
+      "parentUid" : "308fb025eb7dde5a584abc4e5d7f4d46",
+      "status" : "failed",
+      "time" : {
+        "start" : 1658768007950,
+        "stop" : 1658768024254,
+        "duration" : 16304
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "308fb025eb7dde5a584abc4e5d7f4d46"
+  } ]
+}
