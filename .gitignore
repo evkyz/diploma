@@ -4,6 +4,12 @@ node_modules
 .idea
 target
 *.iml
+<<<<<<< HEAD
 .gradle
 build
 data
+=======
+.gradle/
+build/
+data/
+>>>>>>> 4bbe943f01a86c9a3bef6c4586ae322328ccce66
