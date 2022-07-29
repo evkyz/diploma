@@ -24,3 +24,4 @@ public class StartPage {
         return new CreditPage();
     }
 }
+

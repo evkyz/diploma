@@ -26,4 +26,4 @@ services:
       - ./gate-simulator:/home/node/app
     ports:
       - '9988:9999'
-    command: np
+    command: npm start
